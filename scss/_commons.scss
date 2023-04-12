@@ -1,0 +1,96 @@
+//FOOTER
+.footer {
+    background-color: rgb(80, 80, 94);
+    padding: 20px 0;
+    margin-top: 20px;
+    font-size: 0.8em;
+    @media (width > 767px) {
+          text-align: center;
+          margin-top: 10px;
+    }
+} 
+
+header{
+    margin-top: -20px;
+    padding: 0;
+}
+
+.social-icons{
+    img{
+        height: 30px;
+        margin-right: 10px;
+    }
+    @media (width > 767px) {
+        margin-bottom: 10px;
+      }
+}
+//ends FOOTER
+
+//UNIVERSAL
+
+*{
+    font-family: $mainfont;
+}
+
+.label-h{
+    text-align: center;
+    margin-bottom: 0px;
+
+    background: rgb(255,228,196);
+    background: linear-gradient(0deg, rgba(255,228,196,1) 0%, rgba(255,255,255,0.6) 84%, rgba(255,228,196,1) 100%);
+}
+
+a {
+    color: black;
+}
+
+body{
+    background-color:$color-bg;
+}
+
+.indexMain{
+    max-width: 1640px ;
+    }
+
+main{
+    div{
+        width: 100%;
+    }
+    img{
+        padding: 3px;
+        overflow: hidden;
+    }
+}
+//ends UNIVERSAL
+
+//COLORS-DIVIDER
+.colorsLine{
+    width: 100%;
+    height: 15px;
+    div{
+        width: 20%;
+    }
+}
+
+.colorsLineMain{
+    height: 22px;
+}
+// ends COLORS-DIVIDER
+
+/* BEER DEFAULT COLORS */
+.bg-apa{
+    background-color: $color-apa;
+}
+.bg-hipa{
+    background-color: $color-hipa;
+}
+.bg-hpa{
+    background-color: $color-hpa;
+}
+.bg-ipa{
+    background-color: $color-ipa;
+}
+.bg-pilsner{
+   background-color: $color-pilsner;
+}
+/* ends BEER DEFAULT COLORS */

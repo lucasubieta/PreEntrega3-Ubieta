@@ -1,0 +1,26 @@
+/* NAV */
+
+nav{
+    div{
+        ul{
+            color:rgba(210, 105, 30,0.5) !important;
+            li{
+                margin-left: 20px;
+                &:hover{
+                    color:rgba(210, 105, 30,0.5) !important;
+                }
+            }
+        }
+    }
+}
+
+.dropdowncolor{
+    background-color: rgba(255, 228, 196,0.9) !important;
+}
+
+.logo {
+    width: 150px; 
+    @media (width < 767px){
+        width: 120px;
+    }
+}

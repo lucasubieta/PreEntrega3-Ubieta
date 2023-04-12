@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with BRB Brewery. Contact us for inquiries, feedback, or collaboration opportunities. We'd love to hear from you!">
+    <meta name="keywords" content="BRB Brewery, contact, inquiry, feedback, collaboration, craft brewery">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <title>Contact Us | Get in Touch with Our Craft Brewery</title>
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-md bg-transparent fw-bolder p-0 m-0">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="../index.html"><img class="logo" src="../images/logo.png" alt="brb logo"></a>
+            <!-- TOGGLER -->
+            <button class="navbar-toggler me-2 text-align-row border-3 border-dark"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span> 
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- ends TOGGLER -->        
+                <ul class="navbar-nav ms-4 me-auto mb-2 mb-lg-0  flex-row justify-content-center"> <!-- toggle menu format -->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Beers</a>
+                        <ul class="dropdown-menu dropdowncolor">
+                            <li><a class="dropdown-item bg-apa" href="beers.html#APA">APA</a></li>
+                            <li><a class="dropdown-item bg-hipa" href="beers.html#HIPA">Hazy IPA</a></li>
+                            <li><a class="dropdown-item bg-hpa" href="beers.html#HPA">Hazy Pale Ale</a></li>
+                            <li><a class="dropdown-item bg-ipa" href="beers.html#IPA">IPA</a></li>
+                            <li><a class="dropdown-item bg-pilsner" href="beers.html#PILSNER">Pilsner</a></li>
+                            <li><hr class="dropdown-divider fw-bolder"></li>
+                            <li><a class="dropdown-item fw-bolder" active href="beers.html">ALL</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ourstory.html">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ends NAV -->
+
+    <header>
+        <!-- COLORS-LINE -->
+        <div class="d-flex colorsLine colorsLineMain">
+            <div class="bg-apa"></div>
+            <div class="bg-hipa"></div>
+            <div class="bg-hpa"></div>
+            <div class="bg-ipa"></div>
+            <div class="bg-pilsner"></div>
+        </div>
+        <!-- ends COLORS-LINE -->
+
+        <div>
+            <h1 class="label-h">Contact us</h1>
+        </div>
+    </header>
+    
+ <!-- MAIN CONTENT -->
+ <h2 class="label-h2">Hey! Please contact by the form below or just visit us! </h2>
+
+
+    <main class="s0 d-flex bg-black contactCon">
+        <!-- FORM -->
+        <section class="s1 m-1 ">
+            <h2> Contact us</h2>
+            <form action="envio.php" class="fieldset" >
+                    <div class="form-c d-flex p-4">
+                        <div class="mb-4">
+                            <label class="name" for="name">Name</label>
+                            <input type="email" class="form-control" id="name" placeholder="your name">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                        </div>
+                        <div>
+                            <label for="Textarea" class="form-label"> Please write us:</label>
+                            <textarea class="form-control" id="Textarea" rows="3"></textarea>
+                        </div>
+                    </div>
+                <div class=" btnContact d-flex b-2 ">
+                <input type="submit" value="Send" class="btn bg-white fw-bold w-25 mx-auto border border-secondary">
+                <input type="reset" value="Cancel" class="btn bg-white fw-bold w-25 mx-auto border border-secondary">        
+                </div>
+            </form>
+        </section>
+        <!-- ends FORM -->
+        
+
+        <!-- MAP-->
+        <section class="s2 m-1 me-2" >
+                <h2>Find us </h2>
+                <iframe class= "iframe-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.7538804328747!2d174.7776803657993!3d-41.29246068963648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd0a55344c3%3A0xad0a1c4f6c65e907!2s132%20Courtenay%20Place%2C%20Te%20Aro%2C%20Wellington%206011%2C%20New%20Zealand!5e0!3m2!1sen!2sar!4v1677112898191!5m2!1sen!2sar" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>   
+        <!-- ends MAP -->
+
+    </main>
+     <!-- MAIN CONTENT -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="social-icons">
+                        <a href="#"><img src="../images/icons/facebook.svg" alt="Facebook icon"></a>
+                        <a href="#"><img src="../images/icons/instagram.svg" alt="Instagram icon"></a>
+                        <a href="#"><img src="../images/icons/twitter.svg" alt="Twitter icon"></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <a href=""><p>Want to know more about beer?</p></a>
+                </div>
+                <div class="col-sm-4">
+                    <a href=""><p>Our terms and conditions</p></a>
+                </div>
+          </div>
+        </div>
+        <!-- COLORS-LINE -->
+        <div class="d-flex colorsLine">
+            <div class="bg-apa"></div>
+            <div class="bg-hipa"></div>
+            <div class="bg-hpa"></div>
+            <div class="bg-ipa"></div>
+            <div class="bg-pilsner"></div>
+        </div>
+        <!-- ends COLORS-LINE -->
+    </footer>
+    <!-- ends FOOTER --> 
+
+    <script src="../js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>

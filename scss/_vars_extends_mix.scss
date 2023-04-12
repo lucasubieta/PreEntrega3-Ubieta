@@ -1,0 +1,29 @@
+//VARIABLES ***
+$color-apa: rgba(113, 133, 182,0.6);
+$color-hipa: rgba(251, 219, 102,0.6);
+$color-hpa:rgba(228, 145, 75,0.6);
+$color-ipa:rgba(6,172,204,0.6) ;
+$color-pilsner:rgba(104, 162, 37,0.6);
+
+$color-bg:#ffe4c4;
+$width100: 100%;
+$mainfont: 'Roboto 500', sans-serif;
+
+//EXTENDS ***
+.label-h2{
+    @extend .label-h; // (.label-h located at "_commons.scss")
+    margin-top: 3px;
+    background: none !important;
+    h2{
+        font-size: 1em;
+    }
+}
+
+//MIXINGS ***
+@mixin flex($dire,$aligItem){
+    display: flex;
+    flex-direction: $dire;
+    align-items: $aligItem;
+}
+
+

@@ -1,0 +1,25 @@
+{
+  "name": "xsas",
+  "version": "1.0.0",
+  "description": "UTILIZACIONES",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasubieta/PreEntrega2-Ubieta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasubieta/PreEntrega2-Ubieta/issues"
+  },
+  "homepage": "https://github.com/lucasubieta/PreEntrega2-Ubieta#readme",
+  "dependencies": {
+    "sass": "^1.61.0"
+  },
+  "devDependencies": {}
+}

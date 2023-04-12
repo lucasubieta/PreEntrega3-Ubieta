@@ -1,0 +1,34 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 80vw;
+    margin: 0 auto;
+    @media (max-width: 1250px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.grid-item {
+    padding: 20px;
+    background-color: #fff;
+    background-color: $color-bg; 
+    border-radius: 10px;
+    text-align: justify;
+    p{
+        font-style: oblique;
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+    @media (max-width: 1250px) {
+        overflow:scroll;
+        font-size: 0.8em;
+        iframe{
+            width: 100%;
+        }
+    }
+}
+
+.iframe-wrapper {
+  text-align: center;
+}
