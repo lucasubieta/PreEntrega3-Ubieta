@@ -2,9 +2,8 @@
 .label-h2 {
   margin-top: 3px;
   background: none !important;
-}
-.label-h2 h2 {
   font-size: 1em;
+  font-weight: bold;
 }
 
 .footer {
@@ -100,6 +99,30 @@ main img {
 }
 
 /* ends BEER DEFAULT COLORS */
+/* NAV */
+nav div ul {
+  color: rgba(210, 105, 30, 0.5) !important;
+}
+nav div ul li {
+  margin-left: 20px;
+}
+nav div ul li:hover {
+  color: rgba(210, 105, 30, 0.5) !important;
+}
+
+.dropdowncolor {
+  background-color: rgba(255, 228, 196, 0.9) !important;
+}
+
+.logo {
+  width: 150px;
+}
+@media (width < 767px) {
+  .logo {
+    width: 120px;
+  }
+}
+
 .beersContain {
   border: 5px solid black;
   display: inline-block;
@@ -190,19 +213,17 @@ main img {
 
 .grid-item {
   padding: 20px;
-  background-color: #fff;
   background-color: #ffe4c4;
   border-radius: 10px;
-  text-align: justify;
 }
 .grid-item p {
   font-style: oblique;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: bold;
 }
 @media (max-width: 1250px) {
   .grid-item {
-    overflow: scroll;
+    overflow: auto;
     font-size: 0.8em;
   }
   .grid-item iframe {
@@ -250,30 +271,6 @@ main img {
 .contactCon {
   border-radius: 10px;
   padding: 5px;
-}
-
-/* NAV */
-nav div ul {
-  color: rgba(210, 105, 30, 0.5) !important;
-}
-nav div ul li {
-  margin-left: 20px;
-}
-nav div ul li:hover {
-  color: rgba(210, 105, 30, 0.5) !important;
-}
-
-.dropdowncolor {
-  background-color: rgba(255, 228, 196, 0.9) !important;
-}
-
-.logo {
-  width: 150px;
-}
-@media (width < 767px) {
-  .logo {
-    width: 120px;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */

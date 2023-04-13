@@ -11,17 +11,15 @@
 
 .grid-item {
     padding: 20px;
-    background-color: #fff;
     background-color: $color-bg; 
     border-radius: 10px;
-    text-align: justify;
     p{
         font-style: oblique;
         font-size: 1.3em;
-        font-weight: 400;
+        font-weight: bold;
     }
     @media (max-width: 1250px) {
-        overflow:scroll;
+        overflow: auto;
         font-size: 0.8em;
         iframe{
             width: 100%;

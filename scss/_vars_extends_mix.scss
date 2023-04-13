@@ -14,9 +14,8 @@ $mainfont: 'Roboto 500', sans-serif;
     @extend .label-h; // (.label-h located at "_commons.scss")
     margin-top: 3px;
     background: none !important;
-    h2{
-        font-size: 1em;
-    }
+    font-size: 1em;
+    font-weight: bold;
 }
 
 //MIXINGS ***
